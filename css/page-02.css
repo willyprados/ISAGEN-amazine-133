@@ -1,0 +1,127 @@
+/* styles page content */
+
+.banner{
+  background-image: url(../img/global/banner-02.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 4%;
+}
+.banner div.div{
+  width: 30%;
+  background: #fff;
+  position: relative;
+  top: 305px;
+  padding: 3% 5%;
+  height: 245px;
+}
+.banner div h1.green {
+  color: #239503;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+.green h1,.green h1 b {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 30px;
+}
+.green h1 b{
+  font-weight: 900;
+}
+.green hr{
+  display: inline-block;
+  border: 2px solid #239503;
+  width: 90%;
+}
+.div p {
+  font-size: 12px;
+}
+.div01{
+  display: flex;
+  margin: 5% 7.5%;
+}
+.div01-duo01,.div01-duo02{
+  width: 50%;
+  margin: 2.5%;
+}
+.div01-duo01 p{
+  line-height : 22px;
+  margin: 0;
+}
+.div01-duo02 img{
+  width: 100%;
+  display:block;
+  margin:auto;
+}
+
+
+/*Table*/
+table.blueTable td:nth-child(1),table.blueTable td:nth-child(3){
+  width: 30%;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+}
+table.blueTable {
+  width: 70%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #3F3F3F;
+  border-top: 0px;
+  padding: 2%;
+}
+table.blueTable thead {
+  background: #239503;
+  border-bottom: 2px solid #3F3F3F;
+}
+table.blueTable thead th {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+
+
+
+
+/* Responsive */
+@media (min-width: 1400px) {
+  .banner div.div{
+    width: 32%;
+  }
+  table.blueTable td:nth-child(1),table.blueTable td:nth-child(3){
+    width: 26%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1020px) {
+  
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  
+}

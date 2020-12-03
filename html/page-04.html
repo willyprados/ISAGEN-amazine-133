@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestor Independiente de Datos e Información, GIDI</title>
+    <link rel="stylesheet" href="../css/menu.css" />
+    <link rel="stylesheet" href="../css/page-04.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    />
+    <link rel="stylesheet" href="../css/normalize/normalize.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <div class="header-menu">
+        <!-- Menu -->
+        <nav role="navigation">
+          <div class="menuToggle">
+            <!--hidden checkbox-->
+            <input type="checkbox" />
+            <!--Some spans to act as a hamburger.-->
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <!--menu has to be inside of the button-->
+            <div class="menu">
+              <img
+                class="menu-logo"
+                src="../img/global/linea-viva.png"
+                alt="Logo menú"
+              />
+
+              <!--Menu container-->
+              <div class="menu-content">
+                <ul class="menu-nav">
+                  <li class="menu-item home">
+                    <a class="menu-home" href="../index.html">
+                      <i class="fas fa-home"></i>
+                    </a>
+                  </li>
+                  <li class="menu-oe" id="open-modal">
+                    <p>Otras ediciones</p>
+                  </li>
+                  <li class="menu-edition">
+                    <p>Edición 132</p>
+                  </li>
+
+                  <li class="menu-item">
+                    <a
+                      class="menu-link"
+                      href="page-01.html"
+                      >2020 lleno de aprendizajes
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a
+                      class="menu-link"
+                      href="page-02.html"
+                      >Actividades del Programa de seguridad
+                      eléctrica para Subestaciones
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a
+                      class="menu-link"
+                      href="page-03.html"
+                      >Sistema de Integridad
+                      y Cumplimiento (SIC)
+                    </a>
+                  </li>
+                  <li class="menu-item active">
+                    <a 
+                      class="menu-link" 
+                      href="#"
+                      >Gestor Independiente de
+                      Datos e Información, GIDI
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a
+                      class="menu-link"
+                      href="page-05.html"
+                      >Controlar el Factor M esta
+                      en tus manos
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a
+                      class="menu-link"
+                      href="page-06.html"
+                      >Energía firme para
+                      un futuro confiable
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a
+                      class="menu-link"
+                      href="page-07.html"
+                      >Conexión-e información para
+                      el control de las energías
+                      penalizables
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a
+                      class="menu-link"
+                      href="page-08.html"
+                      >GIE, el camino del mejoramiento
+                      continuo de la Gestión de la Energía
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a
+                      class="menu-link"
+                      href="page-09.html"
+                      >En 2021 el contacto directo dependerá
+                      de los protocolos de bioseguridad</a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a
+                      class="menu-link"
+                      href="page-10.html"
+                      >Boletín enérgetico
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a
+                      class="menu-link"
+                      href="page-11.html"
+                      >Celebramos los
+                      retos superados
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Modal -->
+
+              <aside id="modal" class="modal">
+                <section class="modal-container">
+                  <header class="modal-header">
+                    <h2 class="modal-title">Otras ediciones</h2>
+                    <div class="close">x</div>
+                  </header>
+                  <section class="modal-content">
+                    <div class="carousel-wrap">
+                      <div class="owl-carousel">
+                        <div class="item">
+                          <a class="revista" href="https://www.isagen.com.co/LineaVIVA/lineaviva_edicion_131/index.html" target="_blank" ><img src="../img/modal/edition-131.png"></a>
+                        </div>
+                        <div class="item">
+                          <a class="revista active" href="https://www.isagen.com.co/LineaVIVA/lineaviva_edicion_132/index.html" ><img src="../img/modal/edition-132.png"></a>
+                        </div>
+                        <div class="item">
+                          <a class="revista active" href="https://www.isagen.com.co/LineaVIVA/lineaviva_edicion_132/index.html" ><img src="../img/modal/edition-132.png"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+              </aside>
+
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!--Paginación-->
+      <div class="header-nav">
+        <div class="nav-logo">
+          <img src="../img/global/logo-isagen.png" alt="Logo ISAGEN" />
+        </div>
+        <div class="nav-left">
+            <div>
+              <a class="nav-btn" href="page-03.html">
+                <i class="fas fa-chevron-left"></i>
+                <div class="next"><span>Anterior</span><span>Sistema de Integridad y Cumplimiento (SIC)</span></div>
+              </a>
+            </div>
+            <div>
+              <p><strong>|</strong></p>
+            </div> 
+            <div>
+              <a class="nav-btn" href="page-05.html">
+                <div class="next nx-left"><span>Siguiente</span><span>Controlar el Factor M esta en tus manos</span></div>
+                <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page content -->
+    <div class="page-four">
+      <div class="banner">
+        <div class="div">
+          <h1>Gestor <b>Independiente</b><br>
+            de <b>Datos e Información,</b></h1>
+          <div class="blue">
+            <h1>GIDI</h1>
+            <hr>
+          </div>
+          <p>La Resolución CREG que establece las condiciones para la implementación de la
+            infraestructura de medición avanzada (AMI), fue publicada en noviembre pasado.
+            Sin embargo, la regulación del nuevo agente del mercado, GIDI, apenas inicia. Les
+            contamos algunos detalles.
+            </p>
+        </div>
+      </div>
+      <div class="white">
+        <p>Uno de los aspectos más novedosos de esta nueva regulación es la creación de un nuevo agente del mercado: el Gestor Independiente de Datos e Información, GIDI, que deberá constituirse como una Empresa Prestadora de Servicios Públicos ESP, y tomará algunas de las funciones que hoy cumplen XM y los agentes.
+        <br><br>
+        Atendiendo lo dispuesto en el Artículo 290 de la Ley 1955 de 2019, “esta actividad consiste en recopilar, administrar, mantener, procesar y publicar los datos de energía eléctrica obtenidos de los medidores avanzados, y los resultantes de agregaciones o análisis en los términos requeridos en la regulación”.</p>
+        <div class="div-white">
+          <h4>Plan piloto</h4>
+          <img src="../img/global/graphy-04-1.png" alt="Grafica">
+          <p>*Cronograma de implementación de la CREG</p>
+        </div>
+        <p>Aunque la CREG se encuentra desarrollando actualmente la regulación específica para la implementación y operación del GIDI, se planea que antes de finalizar el 2022 se realice un proceso competitivo para elegir al nuevo operador y que este inicie por fases: empezando con la centralización de datos de consumo que se reportan actualmente al administrador del Sistema de Intercambios Comerciales - ASIC, es decir aquellos de clientes como los nuestros.</p>
+        <div class="div-white">
+          <h4>Plan despliegue</h4>
+          <img src="../img/global/graphy-04-2.png" alt="Grafica">
+          <p>*Cronograma de implementación de la CREG</p>
+        </div>
+      </div>
+      <div class="duo">
+        <div class="duo-01">
+          <p>Otro aspecto importante es que al entrar en vigencia la Resolución de
+            AMI, los Operadores de Red OR, tienen un plazo para presentar sus planes
+            de implementación (y máximo hasta mayo de 2021 deben realizar un Plan
+            Piloto). Una vez aprobado su plan por la CREG, tienen un mes para iniciar
+            la instalación de los sistemas de medición inteligente AMI, según lo
+            aprobado. <br><br>
+            Esto implica que una vez los OR instalen los medidores inteligentes serán
+            los encargados de velar por el cumplimiento del Código de Medida, de
+            realizar la medición de los consumos y de reportar dicha información al
+            GIDI. ISAGEN, como comercializador, será uno de los usuarios del GIDI
+            para tomar de allí los datos de consumo y proceder a realizar la
+            facturación. Sin embargo, para llevar a cabo estos cambios, la CREG tiene
+            establecido en su cronograma un plazo para realizar los diferentes
+            ajustes regulatorios con el fin de armonizar esta resolución con las
+            demás resoluciones vigentes. <br><br>
+            Entre los temas que aún están pendientes de aclaración están la
+            validación de los consumos por parte de los consumidores antes de ser
+            facturados (labor que realiza hasta hoy ISAGEN a través del Centro de
+            Gestión de Medida); así como los costos y remuneración que implicará la
+            entrada de este nuevo agente y los posibles cambios regulatorios para
+            ajustar la normatividad vigente a esta nueva realidad, esto debido a que
+            con la entrada en vigencia de la nueva norma, se prevé que el
+            comercializador deje de tener el control del sistema de medida. <br><br>
+            Seguiremos atentos a la evolución del cronograma de la CREG para
+            informarles los aspectos más relevantes. </p>
+        </div>
+        <div class="duo-02">
+          <img src="../img/desktop/foto-04-1.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <script src="../script.js"></script>
+  </body>
+</html>

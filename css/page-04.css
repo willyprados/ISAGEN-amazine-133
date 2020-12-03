@@ -1,0 +1,103 @@
+/* styles page content */
+.banner{
+  background-image: url(../img/global/banner-04.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+}
+.div{
+  margin-left: 8%;
+  margin-top: 3%;
+  width: 550px;
+}
+.div p{
+  font-weight: 700;
+  margin-top: 10%;
+}
+.div h1,.div h1 b{
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 45px;
+}
+.div h1 b{
+  font-weight: 700;
+}
+.blue hr{
+  display: inline-block;
+  border: 2px solid #0095D6;
+  width: 80%;
+}
+.blue h1{
+  font-size: 5rem;
+  font-weight: 700;
+  color: #0095D6;
+  margin-top: 0;
+  margin-bottom: 3%;
+}
+.white{
+  background: #fff;
+  margin: 0 8%;
+  margin-top: -12%;
+}
+.white p{
+  padding: 3% 10%;
+  line-height: 26px;
+}
+.div-white{
+  text-align: center;
+}
+.div-white h4{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.div-white p{
+  text-align: left;
+  font-size: 0.8rem;
+  padding-left: 15%;
+  line-height: 26px;
+}
+.div-white img{
+  display: block;
+  margin: auto;
+  width: 75%;
+}
+.duo{
+  display: flex;
+  margin: 5% 8%;
+}
+.duo-01,.duo-02{
+  width: 50%;
+}
+.duo-01 p{
+  margin-right: 8%;
+  margin-top: 0;
+  line-height: 26px;
+}
+.duo-02 img{
+  width: 100%;
+}
+
+
+
+
+
+/* Responsive */
+
+
+@media (min-width: 1440px){
+
+}
+
+
+/* Tablet */
+@media (max-width: 1020px) {
+
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+}

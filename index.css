@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+body {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  margin: 0;
+  background-position: center center; 
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./img/desktop/portada-web.jpg);
+}
+
+.logos-home{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10%;
+}
+.div-img {
+  width: 50%;
+}
+.logo-left{
+  position: absolute;
+  width: 23%;
+  left: 0;
+  padding-top: 1rem;
+}
+.logo-right{
+  position: absolute;
+  width: 18%;
+  right: 0;
+}
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 5%;
+}
+.titles p {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 0;
+}
+.titles p:nth-child(1) {
+  font-size: 6.5rem;
+  font-weight: bold;
+}
+.titles p:nth-child(3) {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+.titles p:nth-child(4) {
+  font-size: 4.5rem;
+  font-weight: 900;
+  color: #06b9ff;
+}
+.titles p:nth-child(5) {
+  display: none;
+}
+.titles p span {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.btn-home-div {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.btn-home {
+  background: linear-gradient(to right,#07b8ff 10%,#0337c2 110%);
+  color: #fff;
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.btn-home:hover{
+  background: #07b8ff;
+}
+.btn-home-div p {
+  letter-spacing: 2px;
+}
+
+@media (min-width: 1400px){
+  .titles p {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 300;
+    margin: 0;
+  }
+  .titles p:nth-child(1) {
+    font-size: 8rem;
+    font-weight: bold;
+  }
+  .titles p:nth-child(3) {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  .titles p:nth-child(4) {
+    font-size: 5rem;
+    font-weight: 900;
+    color: #07b8ff;
+  }
+  .titles p:nth-child(5) {
+    display: none;
+  }
+  .titles p span {
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+  .btn-home {
+    background: linear-gradient(to right,#07b8ff 10%,#0337c2 110%);
+    color: #fff;
+    padding: 0.5rem 2rem;
+    font-size: 2.5rem;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+  }
+  .btn-home-div p {
+    letter-spacing: 3px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background-image: url(./img/mobile/portada-mobile.jpg);
+  }
+  .logos-home {
+    margin-bottom: 20%;
+  }
+  .titles{
+    margin-top: 35%;
+    align-items: center;
+    margin-left: 0;
+  }
+  .titles p:nth-child(1) {
+    font-size: 4.5rem;
+  }
+  .titles p:nth-child(2) {
+    font-size: 1.8rem;
+  }
+  .titles p:nth-child(3),.titles p:nth-child(4) {
+    display: none;
+  }
+  .titles p:nth-child(5) {
+    display: block;
+    font-size: 1.8rem;
+  }
+  .titles p:nth-child(5) span {
+    font-size: 1.8rem;
+    color: #06b9ff;
+  }
+  .titles p span {
+    font-size: 1.8rem;
+  }
+  .logo-left{
+    width: 40%;
+    padding-top: 0;
+  }
+  .logo-right{
+    width: 35%;
+  }
+  .btn-home-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-top: 10%;
+  }
+  .btn-home{
+    font-size: 1.5rem;
+  }
+  .btn-home-div p{
+    font-weight: 100;
+  }
+}
