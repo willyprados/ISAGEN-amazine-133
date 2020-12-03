@@ -1,11 +1,103 @@
 /* styles page content */
-
-
+.banner{
+  display: flex;
+  height: 610px;
+}
+.banner-text{
+  display: flex;
+  flex-direction: column;
+  background: #F2F2F2;
+  width: 40%;
+  padding: 2.5% 5% 0 10%;
+}
+.banner-text h1{
+  font-weight: 400;
+  font-size: 2.3rem;
+}
+.banner-text h1.blue{
+  font-size: 5rem;
+  font-weight: 700;
+  color: #008DE5;
+  margin: 3% 0;
+}
+.banner-hr h1{
+  font-weight: 300;
+  font-size: 2.7rem;
+  margin-bottom: 2%;
+}
+.banner-hr hr{
+  display: inline-block;
+  border: 2px solid #008DE5;
+  width: 70%;
+}
+.banner-blue{
+  background: #00AFE3;
+  width: 50%;
+}
+.banner-blue img{
+  display: block;
+  margin: auto;
+  width: 80%;
+  margin-top: 20%;
+}
+.div-50{
+  width: 40%;
+  margin-left: 10%;
+}
+.div-50-content{
+  display: flex;
+}
+.div-50-card{
+  width: 50%;
+  margin: 5% 5%;
+}
+.div-50-card img{
+  display: block;
+  margin: auto;
+  width: 45px;
+  height: auto;
+}
+.duo,.duo-gray{
+  display: flex;
+  padding: 2.5% 10%;
+}
+.duo div,.duo-gray div{
+  width: 50%;
+}
+.duo{
+  padding-left: 0;
+}
+.duo div img,.duo-gray div img{
+  display:block;
+  margin:auto;
+  width: 100%;
+}
+.duo div img{
+  margin-left: 0;
+}
+.duo div:nth-child(2) p{
+  margin-left: 10%;
+  margin-top: 0;
+}
+.duo-gray{
+  background: linear-gradient(180deg,#fefefe 0%, #f2f2f2 68%);
+  padding-right: 0;
+  padding-bottom: 0;
+  margin: 5% 0;
+}
+.duo-gray div p b{
+  font-size: 1.25rem;
+}
+.duo-gray div:nth-child(2){
+  width: 60%;
+}
 
 
 /* Responsive */
 @media (min-width: 1400px){
-  
+  .banner-text {
+    width: 35%;
+  }
 }
 /* Tablet */
 @media (max-width: 1020px) {
