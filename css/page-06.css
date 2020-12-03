@@ -1,4 +1,58 @@
 /* styles page content */
+.banner, .duo{
+  display: flex;
+  margin: 0 8%;
+}
+.banner-img,.banner-text,.duo-text,.duo-img{
+  width: 50%;
+}
+.banner-img img,.duo-img img{
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.duo {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.duo-img {
+  margin-left: 5%;
+}
+.banner-text-tow{
+  margin-left: 20%;
+}
+.banner-text-tow p{
+  /* line-height: 25px; */
+  margin-top: 15%;
+}
+.yellow{
+  background: #FFC20E;
+  border-radius: 0 0 0 40px;
+  margin-left: 10%;
+  padding: 5% 10% 10%;
+}
+.yellow h1{
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+div.hr h1{
+  font-weight: 300;
+}
+.hr h1 b{
+  font-weight: 700;
+}
+div.hr h1,.hr h1 b{
+  font-size: 2rem;
+  line-height: 40px;
+}
+.hr{
+  margin: 0;
+}
+.hr hr{
+  display: inline-block;
+  border: 2px solid #3F3F3F;
+  width: 65%;
+}
 
 
 
