@@ -1,9 +1,119 @@
 /* styles page content */
 
+.banner,.card{
+  display: flex;
+}
+.banner-text{
+  width: 40%;
+  margin: 2.5% 8% 0;
+}
+.banner-text h1,.banner-text b{
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 40px;
+}
+.banner-text b{
+  font-weight: 700;
+}
+.banner-text p b{
+  font-size: 1rem;
+  line-height: normal;
+}
+.hr h1{
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #FFC20E;
+  margin: 3% 0;
+}
+.hr hr{
+  display: inline-block;
+  border: 3px solid #3F3F3F;
+  width: 95%;
+}
+.banner-img{
+  width: 60%;
+}
+.banner-img img{
+  display: block;
+  width: 100%;
+}
+.banner-02{
+  background: url(../img/desktop/foto-08-2.jpg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 90%;
+  height: 350px;
+  margin-bottom: 5%;
+}
+.banner-02 p {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 15% 0 40%;
+  padding-top: 10%;
+  line-height: 35px;
+  text-align: center;
+}
+.text p {
+  margin: 5% 20%;
+}
+.card {
+  flex-direction: column;
+}
+.card-01,.card-02 {
+  display: flex;
+  justify-content: space-around;
+}
+.card-01{
+  margin: 0 5% 0;
+}
+.card-01 div{
+  width: 25%;
+  margin: 0 1%;
+}
+.card-02{
+  margin: 5% 15%;
+}
+.card-02 div{
+  width: 30%;
+  margin: 0 1%;
+}
+.card-01 img,.card-02 img {
+  display: block;
+  margin: auto;
+  width: 70px;
+  height: auto;
+}
+
+
+
 
 /* Responsive */
 @media (min-width: 1400px){
-  
+  .banner-text{
+    margin: 5% 8% 0;
+  }
+  .hr h1{
+    font-size: 3rem;
+  }
+  .banner-02 p {
+    font-size: 2rem;
+    margin: 0 15% 0 40%;
+    padding-top: 10%;
+    line-height: 35px;
+  }
+}
+@media (max-width: 1280px){
+  .banner-text{
+    margin: 2% 8% 0;
+  }
+  .banner-text h1,.banner-text b{
+    font-size: 2rem;
+  }
+  .hr h1{
+    font-size: 2.6rem;
+  }
 }
 
 /* Tablet */
