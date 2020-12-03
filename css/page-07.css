@@ -1,7 +1,66 @@
 /* styles page content */
-
-
-
+.banner,.duo-gray,.duo{
+  display: flex;
+  margin: 5% 0;
+  padding: 0 8%;
+}
+.banner{
+  margin-top: 0;
+}
+.banner-img,.banner-text,.gray-text,.gray-img,.duo-img,.duo-text{
+  width: 50%;
+}
+.banner-img img,.gray-img img,.duo-img img,.store img{
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.banner-img, .duo-img {
+  margin-right: 2.5%;
+}
+.gray-text p, span.text {
+  line-height: 27px;
+}
+.gray-text {
+  width: 40%;
+  margin-right: 10%;
+}
+.gray-img{
+  margin-left: 5%;
+}
+.banner-text{
+  background: #F5F5F5;
+  border-radius: 0 0 0 40px;
+  padding: 2% 5%;
+}
+.li li{
+  font-size: 1.5rem;
+  color: #2EF5F7;
+  margin-bottom: 5%;
+}
+span.text{
+  font-size: 16px;
+  color: #3F3F3F;
+}
+.duo-gray {
+  background: #F5F5F5;
+}
+.duo-text p,.duo-text b {
+  line-height: 27px;
+}
+.duo-text p {
+  margin-top: 0;
+}
+.store {
+  display: flex;
+  width: 50%;
+  margin-top: 5%;
+}
+.store a {
+  width: 45%;
+  height: auto;
+  margin-right: 10%;
+}
 
 
 
