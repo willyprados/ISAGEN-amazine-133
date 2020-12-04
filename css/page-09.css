@@ -80,6 +80,12 @@ p.text{
 .duo-02-text p{
   margin: 0 10% 5% 10%;
 }
+.duo-02-text{
+  width: 55%;
+}
+.duo-02-img{
+  width: 45%;
+}
 .duo-02-blue{
   background: linear-gradient(180deg, #00a5db 0%, #016ab5 60%);
   border-radius: 0 0 40px 0;

@@ -1,11 +1,89 @@
 /* styles page content */
-
-
+.duo-01,.duo-02,.duo-03,.duo-04,.duo-05,.duo-06,.duo-07,.duo-08{
+  display: flex;
+}
+.duo-04,.duo-05,.duo-06,.duo-07,.duo-08{
+  margin: 0 8% 8%;
+}
+.duo-04{
+  margin-top: 5%;
+}
+.duo-01-text h1{
+  font-size: 2.8rem;
+  font-weight: 400;
+  margin-top: 10%;
+  margin-bottom: 0;
+}
+.hr h1{
+  font-size: 4rem;
+  font-weight: 700;
+  color: #0AA83C;
+  margin: 8% 0 3%;
+}
+.hr hr{
+  display: inline-block;
+  border: 2px solid #3F3F3F;
+  width: 80%;
+  margin-bottom: 8%;
+}
+.duo-03{
+  background: #F5F5F5;
+  padding: 5% 8%;
+}
+.duo-01-text{
+  margin: 5% 5% 0;;
+}
+.duo-02-text,.duo-01-text{
+  width: 40%;
+}
+.duo-02-img,.duo-01-img{
+  width: 60%;
+}
+.duo-03-text,.duo-04-text,.duo-05-text,.duo-06-text,.duo-07-text,.duo-08-text,.duo-03-img,.duo-04-img,.duo-05-img,.duo-06-img,.duo-07-img,.duo-08-img{
+  width: 50%;
+}
+.duo-01-img img,.duo-02-img img,.duo-03-img img,.duo-04-img img,.duo-05-img img,.duo-06-img img,.duo-07-img img,.duo-08-img img{
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.duo-02{
+  margin-top: 5%;
+}
+.duo-02-img img {
+  width: auto;
+  height: 800px;
+  margin-top: 5%;
+  margin-right: 0;
+}
+.duo-02-text{
+  margin-left: 8%;
+}
+.duo-02-text h2,.duo-03-text h2,.duo-04-text h2,.duo-05-text h2,.duo-06-text h2,.duo-07-text h2,.duo-08-text h2{
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  background: #0AA83C;
+  padding: 3% 4%;
+  line-height: 30px;
+}
+.duo-04-text,.duo-06-text,.duo-08-text{
+  margin-right: 5%;
+}
+.duo-05-text,.duo-07-text{
+  margin-left: 5%;
+}
 
 
 /* Responsive */
 @media (min-width: 1400px){
   
+}
+@media (max-width: 1280px){
+  .duo-02-text h2,.duo-03-text h2,.duo-04-text h2,.duo-05-text h2,.duo-06-text h2,.duo-07-text h2,.duo-08-text h2{
+    font-size: 1.6rem;
+  }
 }
 
 /* Tablet */
