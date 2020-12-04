@@ -79,7 +79,9 @@
 .duo-02 img{
   width: 100%;
 }
-
+.none{
+  display: none;
+}
 
 
 
@@ -94,10 +96,48 @@
 
 /* Tablet */
 @media (max-width: 1020px) {
-
+  .white{
+    margin-top: -20%;
+  }
+  .duo{
+    flex-direction: column;
+  }
+  .duo-01, .duo-02 {
+    width: auto;
+  }
+  .duo-02 img{
+    display: none;
+  }
 }
 
 /* Mobile */
 @media (max-width: 480px) {
-
+  .ocult{
+    display: none;
+  }
+  .none{
+    display: block;
+  }
+  .div{
+    width: auto;
+  }
+  .banner{
+    height: 158px;
+  }
+  .div h1, .div h1 b{
+    font-size: 1rem;
+    line-height: 15px;
+  }
+  .blue h1{
+    font-size: 2rem;
+  }
+  .blue hr{
+    display: none;
+  }
+  .white p{
+    padding: 3% 5%;
+  }
+  .div-white img{
+    width: 100%;
+  }
 }

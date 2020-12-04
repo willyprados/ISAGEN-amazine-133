@@ -118,10 +118,57 @@ table.blueTable tfoot .links a{
 
 /* Tablet */
 @media (max-width: 1020px) {
-  
+  .div01 {
+    margin: 0;
+    flex-direction: column;
+  }
+  .table{
+    display: block;
+    overflow: scroll;
+    width: auto;
+    margin-left: 5%;
+  }
+  table.blueTable{
+    width: auto;
+  }
+  table.blueTable td, table.blueTable th{
+    padding: 5%;
+  }
+  .div01-duo02 img.ocult{
+    display: none;
+  }
 }
 
 /* Mobile */
 @media (max-width: 480px) {
-  
+  .ocult{
+    display: none;
+  }
+  .div01-duo01, .div01-duo02 {
+    width: auto;
+    margin: 5%;
+  }
+  .div01-duo01.margin {
+    /* position: relative; */
+    /* top: 150px; */
+    margin-top: 50%;
+  }
+  .banner{
+    height: 170px;
+    padding-left: 8%;
+  }
+  .banner div.div{
+    width: 70%;
+    top: 100px;
+  }
+  .banner div h1.green{
+    font-size: 2rem;
+    padding-top: 5%;
+  }
+  .green h1, .green h1 b{
+    font-size: 1rem;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
+
 }
