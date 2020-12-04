@@ -120,18 +120,30 @@ table.blueTable tfoot .links a{
 
 /* Tablet */
 @media (max-width: 1020px) {
+  .banner{
+    height: 360px;
+  }
+  .banner div.div{
+    top: 120px;
+    width: 50%;
+    height: 200px;
+  }
+  .banner div h1.green{
+    margin-top: 5%;
+  }
   .div01-duo02 img.none {
     display: block;
   }  
   .div01 {
     margin: 0;
     flex-direction: column;
+    width: auto;
   }
   .table{
     display: block;
     overflow: scroll;
     width: auto;
-    margin-left: 5%;
+    margin-left: 10%;
   }
   table.blueTable{
     width: auto;
@@ -142,6 +154,10 @@ table.blueTable tfoot .links a{
   .div01-duo02 img.ocult{
     display: none;
   }
+  .div01-duo01, .div01-duo02 {
+    width: auto;
+    margin: 10%;
+  }
 }
 
 /* Mobile */
@@ -150,12 +166,13 @@ table.blueTable tfoot .links a{
     display: none;
   }
   .div01-duo01, .div01-duo02 {
-    width: auto;
+    /* width: auto; */
     margin: 5%;
   }
+  .table{
+    margin-left: 5%;
+  }
   .div01-duo01.margin {
-    /* position: relative; */
-    /* top: 150px; */
     margin-top: 50%;
   }
   .banner{

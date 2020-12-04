@@ -85,6 +85,9 @@
   width: 70px;
   height: auto;
 }
+.banner-img img.none{
+  display: none;
+}
 
 
 
@@ -104,6 +107,8 @@
     line-height: 35px;
   }
 }
+
+/* MacBook Pro */
 @media (max-width: 1280px){
   .banner-text{
     margin: 2% 8% 0;
@@ -129,5 +134,62 @@
 
 /* Mobile */
 @media (max-width: 480px) {
- 
+  .banner-img img.ocult{
+    display: none;
+  }
+  .banner-img img.none{
+    display: block;
+  }
+  .banner{
+    flex-direction: column-reverse;
+  }
+  .banner-text,.banner-img{
+    width: auto ;
+    margin: 5% 5% 0;
+  }
+  .banner-text h1, .banner-text b{
+    font-size: 1.4rem;
+    line-height: normal;
+  }
+  .banner-text h1{
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+  .hr h1{
+    font-size: 1.8rem;
+    margin-top: 0;
+  }
+  .hr hr{
+    border: 1px solid #3F3F3F;
+  }
+  .text p{
+    margin: 5% 5%;
+  }
+  .card{
+    margin-top: 15%;
+  }
+  .card-01,.card-02 {
+    flex-direction: column;
+    margin: 0 5%;
+  }
+  .card-02{
+    margin-top: 5%;
+  }
+  .card-01 div,.card-02 div{
+    width: auto;
+  }
+  .banner-02{
+    background: url(../img/mobile/foto-08-1.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90%;
+    height: 125px;
+    margin-bottom: 5%;
+  }
+  .banner-02 p{
+    font-size: 0.8rem;
+    line-height: 10px;
+    margin: 0 5% 0 40%;
+  }
 }
