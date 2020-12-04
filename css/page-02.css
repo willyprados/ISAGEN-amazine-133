@@ -101,7 +101,9 @@ table.blueTable tfoot .links a{
   padding: 2px 8px;
   border-radius: 5px;
 }
-
+.div01-duo02 img.none {
+  display: none;
+}
 
 
 
@@ -118,6 +120,9 @@ table.blueTable tfoot .links a{
 
 /* Tablet */
 @media (max-width: 1020px) {
+  .div01-duo02 img.none {
+    display: block;
+  }  
   .div01 {
     margin: 0;
     flex-direction: column;

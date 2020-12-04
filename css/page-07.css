@@ -61,6 +61,41 @@ span.text{
   height: auto;
   margin-right: 10%;
 }
+.banner-img img.none{
+  display: none;
+}
+.titles{
+  position: absolute;
+  top: 15%;
+  width: 332px;
+  margin-left: 3%;
+}
+.titles h1{
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #2EF5F7;
+  margin-bottom: 2%;
+}
+.hr h1,.hr h1 b{
+  font-size: 1.6rem;
+  color: #fff;
+  line-height: 25px;
+  margin-bottom: 2%;
+}
+.hr h1{
+  font-weight: 300;
+}
+.hr h1 b{
+  font-weight: 700;
+}
+.hr hr{
+  display: inline-block;
+  border: 2px solid #2EF5F7;
+  width: 100%;
+}
+
+
+
 
 
 
@@ -75,14 +110,50 @@ span.text{
   .gray-text p, span.text {
     line-height: normal;
   }
+  
 }
 
 /* Tablet */
 @media (max-width: 1020px) {
-  
+  .banner, .duo-gray, .duo{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .banner-img, .banner-text, .gray-text, .gray-img, .duo-img, .duo-text{
+    width: auto;
+    margin: 0;
+  }
+  .titles{
+    top: 10%;
+    margin-left: 5%;
+  }
+  .banner-img img.ocult{
+    display: none;
+  }
+  .banner-img img.none{
+    display: block;
+    margin: auto;
+  }
+  .gray-img img,.duo-img img{
+    display: none;
+  }
 }
 
 /* Mobile */
 @media (max-width: 480px) {
-  
+  .titles{
+    width: 207px;
+  }
+  .titles h1{
+    font-size: 1.5rem;
+  }
+  .hr h1, .hr h1 b{
+    font-size: 1rem;
+    margin: 0;
+    line-height: 18px;
+  }
+  .gray-text p, span.text{
+    margin: 0 5%;
+  }
 }
