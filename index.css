@@ -31,12 +31,13 @@ body {
   position: absolute;
   width: 23%;
   left: 0;
-  padding-top: 1rem;
+  top: 0;
 }
 .logo-right{
   position: absolute;
   width: 18%;
   right: 0;
+  top:0;
 }
 .titles {
   display: flex;

@@ -68,6 +68,14 @@ span.text{
 @media (min-width: 1400px){
 
 }
+@media (max-width: 1280px){
+  .banner-text{
+    padding: 0 5% 2%;
+  }
+  .gray-text p, span.text {
+    line-height: normal;
+  }
+}
 
 /* Tablet */
 @media (max-width: 1020px) {

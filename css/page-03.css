@@ -111,6 +111,7 @@ h1.h1 {
 }
 .border img {
   width: 75%;
+  height: 75%;
   margin-bottom: 5%;
 }
 
@@ -131,6 +132,7 @@ h1.h1 {
 @media (max-width: 1280px){
   .div01{
     margin-top: -20%;
+    height: 280px;
   }
   .blue h1,.blue h1 b {
     font-size: 2.2rem;

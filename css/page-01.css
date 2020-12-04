@@ -43,9 +43,14 @@
 .div-rose p{
   color: #fff;
 }
-.div01,.div02{
+.div01{
   display: flex;
   margin: 5% 7.5%;
+}
+.div02{
+  display: flex;
+  margin: 0;
+  padding: 5% 7.5%;
 }
 .div01-duo01,.div01-duo02{
   width: 50%;

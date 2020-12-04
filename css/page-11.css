@@ -1,7 +1,9 @@
 /* styles page content */
-
-
-
+img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
 
 /* Responsive */
@@ -11,10 +13,11 @@
 
 /* Tablet */
 @media (max-width: 1020px) {
- 
 }
 
 /* Mobile */
 @media (max-width: 480px) {
-  
+ img{
+   src: url(../img/mobile/contraportada.jpg);
+ }
 }

@@ -84,6 +84,11 @@
   .duo-02-text h2,.duo-03-text h2,.duo-04-text h2,.duo-05-text h2,.duo-06-text h2,.duo-07-text h2,.duo-08-text h2{
     font-size: 1.6rem;
   }
+  .duo-02-img img{
+    width: 700px;
+    height: auto;
+    margin-top: 20%;
+  }
 }
 
 /* Tablet */
