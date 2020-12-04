@@ -115,8 +115,13 @@ span.text{
 
 /* Tablet */
 @media (max-width: 1020px) {
-  .banner, .duo-gray, .duo{
+  .banner, .duo-gray{
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .duo{
+    flex-direction: column-reverse;
     margin: 0;
     padding: 0;
   }
@@ -135,8 +140,30 @@ span.text{
     display: block;
     margin: auto;
   }
-  .gray-img img,.duo-img img{
+  .gray-img img{
     display: none;
+  }
+  .duo-text p, .duo-text b{
+    line-height: normal;
+  }
+  .duo-text b.center{
+    text-align: center;
+  }
+  .duo-text{
+    margin-top: 5%;
+  }
+  .banner-text{
+    border-radius: 0;
+  }
+  .store{
+    margin-top: 70%;
+    margin-bottom: -70%;
+  }
+  .duo-text,.gray-text, span.text{
+    margin: 0 5%;
+  }
+  .duo-text{
+    margin-top: 5%;
   }
 }
 
@@ -153,7 +180,10 @@ span.text{
     margin: 0;
     line-height: 18px;
   }
-  .gray-text p, span.text{
+  .duo-text,.gray-text, span.text{
     margin: 0 5%;
+  }
+  .duo-text{
+    margin-top: 5%;
   }
 }
