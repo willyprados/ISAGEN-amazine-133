@@ -1,8 +1,10 @@
 /* styles page content */
-img{
+.img-web{
+  display: block;
   width: 100%;
-  height: auto;
-  object-fit: cover;
+}
+.img-mobile{
+  display: none;
 }
 
 
@@ -17,7 +19,11 @@ img{
 
 /* Mobile */
 @media (max-width: 480px) {
- img{
-   src: url(../img/mobile/contraportada.jpg);
+ .img-web{
+   display: none;
+ }
+  .img-mobile{
+  display: block;
+  width: 100%;
  }
 }
