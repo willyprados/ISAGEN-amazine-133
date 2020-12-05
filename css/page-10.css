@@ -74,7 +74,9 @@
 .duo-05-text,.duo-07-text{
   margin-left: 5%;
 }
-
+img.none{
+  display: none;
+}
 
 /* Responsive */
 @media (min-width: 1400px){
@@ -93,10 +95,54 @@
 
 /* Tablet */
 @media (max-width: 1020px) {
-  
+  img.ocult{
+    display: none;
+  }
+  img.none{
+    display: block;
+  }
+  .duo-01,.duo-03,.duo-05,.duo-07{
+    flex-direction: column;
+  }
+  .duo-02,.duo-04,.duo-06,.duo-08{
+    flex-direction: column-reverse;
+  }
+  .duo-02-text, .duo-01-text,.duo-03-text, .duo-04-text, .duo-05-text, .duo-06-text, .duo-07-text, .duo-08-text, .duo-03-img, .duo-04-img, .duo-05-img, .duo-06-img, .duo-07-img, .duo-08-img,.duo-02-img,.duo-01-img{
+    width: auto;
+  }
+  .duo-03,.duo-05,.duo-07,.duo-04,.duo-06,.duo-02{
+    margin-bottom: 15%;
+  }
+  .duo-02-img img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+  .duo-02-text,.duo-04-text, .duo-06-text, .duo-08-text,.duo-05-text, .duo-07-text{
+    margin: 0;
+  }
+  .duo-02-text{
+    margin: 0 8% 10%
+  }
 }
 
 /* Mobile */
 @media (max-width: 480px) {
- 
+  .duo-01-text h1{
+    font-size: 1rem;
+    margin-top: 5%;
+  }
+  .hr h1{
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  .duo-02-text h2, .duo-03-text h2, .duo-04-text h2, .duo-05-text h2, .duo-06-text h2, .duo-07-text h2, .duo-08-text h2{
+    font-size: 1rem;
+    line-height: normal;
+  }
+  .hr hr {
+    border: 1px solid #3F3F3F;
+    width: 45%;
+  }
 }

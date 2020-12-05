@@ -104,7 +104,9 @@ table.blueTable tfoot .links a{
 .div01-duo02 img.none {
   display: none;
 }
-
+.scroll{
+  display: none;
+}
 
 
 
@@ -157,6 +159,16 @@ table.blueTable tfoot .links a{
   .div01-duo01, .div01-duo02 {
     width: auto;
     margin: 10%;
+  }
+  .scroll{
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 2% 5%;
+    line-height: 10px;
+  }
+  .div p {
+    font-size: 14px;
   }
 }
 

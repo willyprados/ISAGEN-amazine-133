@@ -176,6 +176,7 @@
   .div01-duo01.margin{
     margin-top: -20%;
     margin-left: 2.5%;
+    border-radius: 20px 0 0 0;
   }
   .div01-duo01, .div01-duo02{
     padding: 5% 5%;

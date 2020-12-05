@@ -94,6 +94,10 @@
 .none{
   display: none;
 }
+.div-50-card p{
+  text-align: center;
+}
+
 
 /* Responsive */
 @media (min-width: 1400px){
@@ -146,6 +150,7 @@
   .duo-gray div:nth-child(2){
     width: auto;
   }
+  
 }
 
 /* Mobile */

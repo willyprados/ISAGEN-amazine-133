@@ -85,6 +85,9 @@
   width: 70px;
   height: auto;
 }
+.card-01 p,.card-02 p {
+  text-align: center;
+}
 .banner-img img.none{
   display: none;
 }
@@ -143,9 +146,14 @@
   .banner{
     flex-direction: column-reverse;
   }
-  .banner-text,.banner-img{
+  .banner-text{
     width: auto ;
     margin: 5% 5% 0;
+  }
+  .banner-img{
+    width: auto ;
+    margin: 0;
+    margin-left: 15%;
   }
   .banner-text h1, .banner-text b{
     font-size: 1.4rem;
@@ -191,5 +199,8 @@
     font-size: 0.8rem;
     line-height: 10px;
     margin: 0 5% 0 40%;
+  }
+  .card-02{
+    margin-bottom: 5%;
   }
 }
