@@ -96,7 +96,18 @@
 
 
 /* Responsive */
-@media (min-width: 1400px){
+@media (min-width: 1660px){
+  .banner-02{
+    width: 75%;
+    height: 460px;
+  }
+  .banner-02 p{
+    margin: 0 10% 0 50%;
+    padding-top: 13%;
+  }
+}
+
+@media (max-width: 1400px){
   .banner-text{
     margin: 5% 8% 0;
   }
