@@ -70,6 +70,10 @@ a.revista img {
   width: 50%;
 }
 
+.revista.active img {
+  box-shadow: 0 0 15px blue;
+}
+
 /* a.revista.active img {
   border: 10px solid blue;
 } */

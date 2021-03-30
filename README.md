@@ -9,7 +9,7 @@
 **"Linea VIVA"** magazine for the month of December 2020. Magazine created in HTML, CSS and some Javascript. To run the project you can do it by installing ESlint in VSCode and running the index.html or you can see it by entering <a href="https://www.isagen.com.co/LineaVIVA/lineaviva_edicion_133/index.html">here.</a>
 
 
-# Collaborators @willyprados
+# Collaborators <a href="https://gitlab.com/willyprados">@willyprados</a>
 ## 👩‍💻 To view me website you can click on the link below
 
 <a href="https://willyprados.github.io/">willyprados.github.io</a>
